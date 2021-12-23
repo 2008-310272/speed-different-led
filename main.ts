@@ -1,5 +1,10 @@
 function led2 (y: number, speed: number) {
     while (true) {
+        // 用不同數字來改變方向
+        // 0左到右
+        // 1右到左
+        // 2上到下
+        // 3下到上
         if (direction == 0) {
             for (let index = 0; index <= 4; index++) {
                 if (list[y][index] == 1) {
